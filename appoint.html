@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta
+  name="description"           
+  content="It's a simple User friendly User Input page, where a user can fill these two numbers and get to choose two different button for calculations, one with radio button and other with checkbox.">
+	
+
+	<link rel="stylesheet" type="text/css" href="CSS/appnt.css">
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+	
+	<title>Appointment</title>
+
+</head>
+
+<body >
+	
+	<div class="mainheader">
+		<div class="logo">
+			<a href="doctor.html"><img src="images/logo_trans.png" alt="logo" width="200px";></a>
+		</div>
+
+		<nav class="circle">
+			<a href="doctor.html">Home</a>
+			<a href="#">Services</a>
+			<a href="#"> About</a>
+			<a href="contact.html">Contact</a>
+		</nav>
+
+		<div class="menubtn">
+			<a href="helpline.html">
+				<button>Helpline</button>
+     
+     </a>
+			
+		</div>
+	</div>
+	
+<div class="tbl">
+	
+
+
+	<table align="center">
+		<tr><th>Enter Your Details Please</th>
+	<form name="f1">
+		<tr id="f1"><td>
+			<label id="1st" for="frst"><b>Id: </b></label>
+			<input type="number" name="fst" id="frst" placeholder="only numbers" required="true" autofocus="on" autocomplete="on" aria-labelledby="1st" pattern=".{1,}"/>
+		</td></tr>
+		<tr id="f1"><td>
+			<label id="2nd" for="scnd"><b>Name: </b></label>
+			<input type="text" name="scnd" id="scnd" placeholder="First Name" required="true" autofocus="on" autocomplete="on" aria-labelledby="2nd" pattern=".{1,}"/>
+		</td></tr>
+		<tr id="f1"><td>
+			<label id="3rd" for="thrd"><b>Mobile No.: </b></label>
+			<input type="number" name="thrd" id="thrd" placeholder="Mobile Number" required="true" autofocus="on" autocomplete="on" aria-labelledby="3rd" pattern=".{1,}"/>
+		</td></tr>
+	</form>
+
+		<tr><td>
+			<div class="tab">
+			  <button class="tablinks" onclick="add(event, 'frst','scnd','thrd')"  value="0">Add</button>
+			  <button class="tablinks" onclick="display()" value="1">Display</button>
+			  <button class="tablinks" onclick="del(event,'fst')" value="2">Delete</button>
+			</div>
+		</td></tr>
+	</tr>
+</table>
+
+<div id="c" class="tabcontent"></div>
+
+</div>
+
+
+
+
+
+<script type="text/javascript" src="javascript/appnt.js"></script>
+</body>
+</html>

@@ -1,0 +1,96 @@
+ *{
+margin: 0; padding: 0;
+font-family: 'Josefin Sans', sans-serif;
+}
+
+main h3
+{
+	margin-top: 10px;
+}
+
+div.first {
+	margin-top: 10px;
+	margin-right: 10px;
+	box-sizing: border-box;
+ 	background-image: linear-gradient(to right,#649bff,#0070fa,#649bff);
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+ padding: 15px 45px;
+	 text-align: center;
+	 font-size: 14px;
+	 color: black;
+	 border: none;
+	 background-color: white;
+	 border-radius: 10px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #f8f1f1;
+  
+}
+
+.container {
+  border-radius: 5px;
+  
+  padding: 20px;
+}
+
+main{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+main .right-sec{
+
+	padding-right: 70px;
+}
+
+main .left-sec{
+
+padding-left: 100px;
+}
+
+.left-sec h2{
+	font-size: 20px;
+	text-transform: capitalize;
+	font-weight: lighter;
+	color: #242424;
+	margin-top: 100px;
+}
+
+.left-sec h1{
+ 	font-size: 55px;
+	text-transform: capitalize;
+	font-weight: 700;
+	margin: 15px 0;
+}
+
+.left-sec p{
+
+	margin-bottom: 20px;
+}
+
+.left-sec button{
+	 padding: 15px 45px;
+	 text-align: center;
+	 font-size: 14px;
+	 color: #fff;
+	 border: none;
+	 background-image: linear-gradient(to right,#649bff,#0070fa,#649bff);
+	 border-radius: 10px;
+}
